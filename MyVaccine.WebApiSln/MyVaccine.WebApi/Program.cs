@@ -12,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.SetDatabaseConfiguration();
 builder.Services.SetMyVaccineAuthConfiguration();
+builder.Services.SetDependencyInjection();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using MyVaccine.WebApi.Models;
 
+
 namespace MyVaccine.WebApi.Configurations;
 
 public static class AuthConfigurations
@@ -16,6 +17,8 @@ public static class AuthConfigurations
             options.Password.RequireLowercase = true;
             options.Password.RequireUppercase = true;
             options.Password.RequiredLength = 8;
+            options.User.RequireUniqueEmail = false;
+            options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
 
             //options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
             //options.Lockout.MaxFailedAccessAttempts = 5;
