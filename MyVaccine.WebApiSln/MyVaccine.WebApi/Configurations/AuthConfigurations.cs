@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
+using MyVaccine.WebApi.Literals;
 using MyVaccine.WebApi.Models;
 
 
@@ -40,9 +41,9 @@ public static class AuthConfigurations
                 ValidateIssuerSigningKey = false,
                 //ValidIssuer = "tu_issuer",
                 //ValidAudience = "tu_audience",
-                //IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("tu_clave_secreta")),
-                //ClockSkew = TimeSpan.Zero // Evita un desfase de tiempo (opcional)
-            };
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable(MyVaccineLiterals.JWT_KEY))),
+            //ClockSkew = TimeSpan.Zero // Evita un desfase de tiempo (opcional)
+        };
         });
         return services;
     }
