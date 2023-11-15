@@ -81,3 +81,8 @@ C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin
 C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Catalina Aristizabal\DotnetApi\MyVaccine.WebApiSln\MyVaccine.WebApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
