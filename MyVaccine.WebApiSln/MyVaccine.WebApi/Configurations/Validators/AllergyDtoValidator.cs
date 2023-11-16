@@ -11,4 +11,6 @@ namespace MyVaccine.WebApi.Configurations.Validators
             RuleFor(dto => dto.UserId).NotEmpty().GreaterThan(0);
         }
     }
+
+
 }
