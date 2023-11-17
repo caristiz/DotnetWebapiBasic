@@ -17,6 +17,9 @@ public static class DependencyInjections
         services.AddScoped<IBaseRepository<Allergy>, BaseRepository<Allergy>>();
         services.AddScoped<IBaseRepository<FamilyGroup>, BaseRepository<FamilyGroup>>();
         services.AddScoped<IBaseRepository<Vaccine>, BaseRepository<Vaccine>>();
+        services.AddScoped<IBaseRepository<VaccineCategory>, BaseRepository<VaccineCategory>>();
+        services.AddScoped<IBaseRepository<VaccineRecord>, BaseRepository<VaccineRecord>>();
+
         #endregion
 
         #region Services Injection
@@ -26,6 +29,8 @@ public static class DependencyInjections
         services.AddScoped<IAllergyService, AllergyService>();
         services.AddScoped<IFamilyGroupService, FamilyGroupService>();
         services.AddScoped<IVaccineService, VaccineService>();
+        services.AddScoped<IVaccineCategoryService, VaccineCategoryService>();
+        services.AddScoped<IVaccineRecordService, VaccineRecordService>();
 
 
         #endregion
